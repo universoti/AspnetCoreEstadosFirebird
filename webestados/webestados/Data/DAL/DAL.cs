@@ -14,7 +14,7 @@ namespace webestados.Data.DAL
         private static string User= "SYSDBA";
         private static string Password="masterkey";
         private static string Database= "localhost:B:\\PROJETOS_ERICK_2019\\ForcaVendas\\dados\\ForcaVendasBD.fdb";       
-        private static string DataSource = "localhost";
+       
         private static int Port = 3050;
         private static string Dialect = "3";
         private static string Charset = FbCharset.None.ToString();
