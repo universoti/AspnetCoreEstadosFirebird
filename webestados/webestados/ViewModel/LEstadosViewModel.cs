@@ -12,7 +12,7 @@ namespace webestados.ViewModel
         public string DESCRICAO { get; set; }
         public decimal VL_ALIQ_UF { get; set; }
 
-        public List<LEstadosViewModel> ListarTabela(DataTable dt) 
+        public static List<LEstadosViewModel> ListarTabela(DataTable dt) 
         {
             List<LEstadosViewModel> lista = new List<LEstadosViewModel>();
            

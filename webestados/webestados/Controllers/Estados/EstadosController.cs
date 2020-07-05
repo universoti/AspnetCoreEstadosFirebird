@@ -17,8 +17,8 @@ namespace webestados.Controllers.Estados
         {
             DAL CONNECTAR = new DAL();
             var dt = CONNECTAR.RetDataTable("select * from UF");
-            LEstadosViewModel estados = new LEstadosViewModel();
-            List<LEstadosViewModel> Listar_estados = estados.ListarTabela(dt);
+            ///LEstadosViewModel estados = new LEstadosViewModel();
+            List<LEstadosViewModel> Listar_estados = LEstadosViewModel.ListarTabela(dt);
             ViewBag.Estados = Listar_estados;
             return View();
         }
